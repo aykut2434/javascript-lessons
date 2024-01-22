@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nate Nesneleri</title>
+</head>
+<body>
+    <script>
+        var tarih =new Date ();
+        // toString() => date bilgileri string türüne çevirebiliriz.
+        document.write(tarih.toString()+"<br>")
+        //get metotları :
+
+
+         document.write(tarih.getDay()+"<br>") // 0-6 arası index den pazartesi 1 0 pazar 
+         document.write(tarih.getMonth()+"<br>") // 0-12 
+         document.write(tarih.getDate()+"<br>") // ayın kaçı olduğu
+         document.write(tarih.getFullYear()+"<br>")// yıl bilgisi
+       document.write(tarih.getMinutes()+"<br>")
+       document.write(tarih.getSeconds()+"<br>")
+       // set metodları :
+       tarih.setDate(22);
+       document.write(tarih.getDate()+"<br>");
+       tarih.setFullYear(2012);
+       document.write(tarih.getFullYear())
+
+       
+        
+          
+
+
+
+
+
+        
+        
+
+    </script>
+    
+</body>
+</html>
